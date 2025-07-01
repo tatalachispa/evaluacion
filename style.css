@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f1f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .header-imagen img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .producto-info {
+    padding: 15px;
+  }
+
+  .tam-opciones span {
+    display: inline-block;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+    color: #d81f5e;
+    font-weight: bold;
+    border: 2px solid #d81f5e;
+  }
+
+  h2 {
+    margin: 10px 0 5px;
+  }
+
+  .precio {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .calif {
+    color: #ffa500;
+  }
+
+  .detalles {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .btn {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btn.carrito {
+    background-color: #1a73e8;
+    color: white;
+  }
+
+  .btn.comprar {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .delivery {
+    background-color: #ffe4ea;
+    color: #c2185b;
+    text-align: center;
+    padding: 8px;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+
+  .footer {
+    padding: 10px 15px;
+  }
+
+  .productos {
+    display: flex;
+    gap: 10px;
+  }
+
+  .zapas {
+    width: 48%;
+  }
+
+  .zapas img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .navegacion {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+
+  .navegacion div {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .navegacion div.red {
+    color: #d81f5e;
+  }
